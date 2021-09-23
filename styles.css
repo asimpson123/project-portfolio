@@ -1,23 +1,61 @@
 :root {
-  --primary-font: "Rubik Beastly", cursive;
+  --primary-font: "Creepster", cursive;
   --secondary-font: "Gideon Roman", cursive;
-  --primary-font-color: white;
-  --secondary-font-color: grey;
+  --primary-color: #840808;
+  --secondary-color: grey;
+  --tertiary-color: #b14623;
+  --box-shadow: 2px 1px 1px 2px rgb(1, 248, 30);
 }
 
 .header-homepage {
-  background: black;
+  background: #141414;
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
+  border-radius: 4px;
 }
 
 h1 {
   font-family: var(--primary-font);
-  color: var(--primary-font-color);
+  color: var(--primary-color);
+  font-size: 100px;
+  padding: 20px;
+  margin: 0 auto;
 }
 
 h2,
 h3 {
   font-family: var(--secondary-font);
-  color: var(--secondary-font-color);
+  color: var(--secondary-color);
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.trick-treat-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.trick-treat-links a {
+  margin: 50px;
+  border-radius: 4px;
+  padding: 20px 25px;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: var(--primary-font);
+  color: #0aaf1d;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #01f81e,
+    0 0 82px #01f81e, 0 0 92px #01f81e, 0 0 102px #01f81e, 0 0 151px #01f81e;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #01f81e,
+    0 0 0.8rem #01f81e, 0 0 2.8rem #01f81e, inset 0 0 1.3rem #01f81e;
 }
