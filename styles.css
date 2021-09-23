@@ -1,17 +1,23 @@
 :root {
   --primary-font: "Rubik Beastly", cursive;
   --secondary-font: "Gideon Roman", cursive;
+  --primary-font-color: white;
+  --secondary-font-color: grey;
 }
 
 .header-homepage {
   background: black;
+  text-align: center;
+  padding: 160px 20px;
 }
 
 h1 {
   font-family: var(--primary-font);
+  color: var(--primary-font-color);
 }
 
 h2,
 h3 {
   font-family: var(--secondary-font);
+  color: var(--secondary-font-color);
 }
