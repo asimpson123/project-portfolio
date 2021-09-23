@@ -1,8 +1,17 @@
+:root {
+  --primary-font: "Rubik Beastly", cursive;
+  --secondary-font: "Gideon Roman", cursive;
+}
+
+.header-homepage {
+  background: black;
+}
+
 h1 {
-  font-family: "Rubik Beastly", cursive;
+  font-family: var(--primary-font);
 }
 
 h2,
 h3 {
-  font-family: "Gideon Roman", cursive;
+  font-family: var(--secondary-font);
 }
