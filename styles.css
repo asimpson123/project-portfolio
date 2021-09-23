@@ -59,3 +59,8 @@ h3 {
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #01f81e,
     0 0 0.8rem #01f81e, 0 0 2.8rem #01f81e, inset 0 0 1.3rem #01f81e;
 }
+
+.apps {
+  display: flex;
+  justify-content: center;
+}
