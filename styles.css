@@ -76,6 +76,7 @@ h3 {
 img {
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
 }
 
 .img-fluid {
@@ -88,11 +89,7 @@ img {
   color: var(--primary-color);
   font-size: 50px;
   text-align: center;
-}
-
-.app-paragraphs {
-  font-family: var(--secondary-font);
-  color: var(--secondary-color);
+  margin: 20px 10px 10px 10px;
 }
 
 .recipe-button,
@@ -100,6 +97,7 @@ img {
 .playlist-button {
   display: block;
   margin: 0 auto;
+  margin-top: 20px;
   background: var(--primary-color);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   color: white;
