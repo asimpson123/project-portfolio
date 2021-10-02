@@ -89,7 +89,7 @@ img {
   color: var(--primary-color);
   font-size: 50px;
   text-align: center;
-  margin: 20px 10px 10px 10px;
+  margin: -15px 10px 10px 10px;
 }
 
 .recipe-button,
@@ -110,4 +110,10 @@ img {
   max-width: 160px;
   text-align: center;
   font-family: var(--secondary-font);
+}
+
+@media (max-width: 576px) {
+  .link-headings {
+    margin: 20px 10px 10px 10px;
+  }
 }
